@@ -1,0 +1,39 @@
+[
+  {
+    "position": "President",
+    "name": "Kevin Shoemaker",
+    "img": "static/images/shoemaker-kevin-2016.jpg"
+  }, {
+    "position": "President Elect",
+    "name": "Cody Schroeder",
+    "img": "https://source.unsplash.com/zwtqIlsajjg"
+  }, {
+    "position": "Past President",
+    "name": "Brian Wakeling",
+    "img": "static/images/bwakeling.jpg"
+  }, {
+    "position": "Rep. to Western",
+    "name": "Mitchell Gritts",
+    "img": "static/images/nasa_250x250.jpg"
+  }, {
+    "position": "Secretary & Treasurer",
+    "name": "Derek Hall",
+    "img": "https://source.unsplash.com/lQ0gPL_0Bt8"
+  }, {
+    "position": "Conservation Affairs",
+    "name": "Jasmine Kleiber",
+    "img": "https://source.unsplash.com/ZbMJ5VLrpQ4"
+  }, {
+    "position": "Professional Development",
+    "name": "Meghan Keating",
+    "img": "static/images/mkeating.jpg"
+  }, {
+    "position": "Newsletter",
+    "name": "Sonya Giroux",
+    "img": "https://source.unsplash.com/XHK0JdmJxJc"
+  }, {
+    "position": "Student Chapter - UNR",
+    "name": "Brianna Jones",
+    "img": "https://source.unsplash.com/4dhlFpZ0dDw"
+  }
+]

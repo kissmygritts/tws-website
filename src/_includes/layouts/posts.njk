@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+
+<main id="main" class="w-full bg-gray-200 min-h-screen pb-6">
+  <a class="bg-transparent py-1 px-2 m-4 absolute rounded-lg border-2 border-gray-800 text-gray-800 shadow-xl hover:underline hover:shadow-2xl"
+     href="{{ '/' | url }}">
+    Home
+  </a>
+  
+  <div class="w-full" style="height: 66vh;">
+    <img class="w-full h-full object-cover shadow-lg" src="{{ image }}" />
+  </div>
+
+  <div class="relative py-4 px-4 sm:px-8 lg:px-12 mx-2 sm:mx-12 md:mx-32 lg:mx-48 xl:mx-64  bg-white rounded-lg -mt-48 shadow-2xl">
+    <div class="text-gray-800">
+      <h1 class="text-2xl tracking-wide">{{ title }}</h1>
+
+      <p class="font-light tracking-wider text-gray-700 pt-2">{{ author }} &bull; {{ date }}</p>
+
+      <div class="markdown">
+        {{ content | safe }}
+      </div>
+    </div>
+  </div>
+</main>
