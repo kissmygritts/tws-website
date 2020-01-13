@@ -13,15 +13,18 @@ layout: layouts/base.njk
     >
         {# left column #}
         <div class="flex flex-col w-full md:w-3/5 text-center justify-center items-start pt-4 px-4 md:px-16 text-gray-800">
-            <h1 class="my-4 text-3xl font-bold leading-tight w-full">Nevada TWS</h1>
+            <h1 class="my-4 text-3xl font-bold leading-tight w-full">Nevada Wildlife Society</h1>
             <p class="leading-normal w-full">
                 The Wildlife Society was founded in 1937 and is an international
                 non-profit scientific and educational association dedicated to 
                 excellence in wildlife stewardship through science and education.
             </p>
-            <button class="mx-auto hover:underline text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-xl hover:shadow-2xl bg-transparent border-gray-800 border-2">
+            <a 
+                href="https://www.wildlifeprofessional.org/western/mem_reg.php"
+                class="mx-auto hover:underline text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-xl hover:shadow-2xl bg-transparent border-gray-800 border-2"
+            >
                 Become A Member
-            </button>
+            </a>
         </div>
 
         {# right column #}
@@ -38,7 +41,7 @@ layout: layouts/base.njk
             <div class="container w-100 lg:w-4/5 mx-auto flex flex-col">
                 
                 {# cards #}
-                {% for post in collections.post %}
+                {% for post in collections.post | reverse %}
                 {% set imgUrl = post.data.image %}
 
                 <div class="flex flex-col md:flex-row bg-white rounded-lg shadow-xl overflow-hidden mt-4 w-100 mx-2">
@@ -79,7 +82,7 @@ layout: layouts/base.njk
             >
                 <img class="w-32 h-32 object-cover rounded-full mx-auto" src="{{ i.img }}" />
                 <div class="mt-4 text-center">
-                    <p class="text-gray-700 uppercase text-sm font-light tracking-wider">{{ i.position }}</p>
+                    <p class="text-gray-700 uppercase text-sm text-orange-600 font-light tracking-wider">{{ i.position }}</p>
                     <p class="text-gray-800">{{ i.name }}</p>
                 </div>
 
