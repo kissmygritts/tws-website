@@ -12,7 +12,7 @@ layout: layouts/base.njk
                     linear-gradient(20deg, #ffc14e, transparent)"
     >
         {# left column #}
-        <div class="flex flex-col w-full md:w-3/5 text-center justify-center items-start pt-4 px-4 md:px-16 text-gray-800">
+        <div class="flex flex-col w-full md:w-3/5 text-center justify-center items-start pt-4 px-4 md:px-16 lg:px-32 text-gray-800">
             <h1 class="my-4 text-3xl font-bold leading-tight w-full">Nevada Wildlife Society</h1>
             <p class="leading-normal w-full">
                 The Wildlife Society was founded in 1937 and is an international
@@ -77,10 +77,10 @@ layout: layouts/base.njk
 
         <div class="container w-3/4 mx-auto mt-4 flex flex-wrap justify-center">
             {% for i in boardMembers %}
-            <div class="bg-white border border-gray-100 rounded-lg shadow p-4 my-4 mx-4"
+            <div class="bg-white p-4 my-4 mx-4"
                  style="width: 260px;"
             >
-                <img class="w-32 h-32 object-cover rounded-full mx-auto" src="{{ i.img }}" />
+                <img class="w-32 h-32 object-cover rounded-full mx-auto shadow-lg" src="{{ i.img }}" />
                 <div class="mt-4 text-center">
                     <p class="text-gray-700 uppercase text-sm text-orange-600 font-light tracking-wider">{{ i.position }}</p>
                     <p class="text-gray-800">{{ i.name }}</p>
@@ -93,7 +93,7 @@ layout: layouts/base.njk
     </div>
 
     {# footer #}
-    <footer class="bg-gray-700 p-4">
-        <p class="text-center text-gray-300 text-sm">Unlicense 2020</p>
+    <footer class="bg-gray-800 p-4">
+        <p class="text-center text-gray-500 text-sm">Unlicense 2020</p>
     </footer>
 </main>
