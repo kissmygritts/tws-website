@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 .markdown {
-  @apply text-gray-800 leading-normal break-words px-2;
+  @apply text-gray-800 leading-loose break-words px-2;
 }
 
 .markdown > p {
-  @apply pt-4 font-serif;
+  @apply pt-6 font-serif text-base;
+}
+
+@screen md {
+  .markdown > p {
+    @apply text-lg;
+  }
 }
 
 /* Additional vertical padding used by kbd tag. */

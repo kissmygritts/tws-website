@@ -9,7 +9,8 @@ layout: layouts/base.njk
          style="background:
                     linear-gradient(0deg, transparent 0%, #94bbe9 75%),
                     linear-gradient(to top left, #ffff76, transparent),
-                    linear-gradient(20deg, #ffc14e, transparent)"
+                    linear-gradient(20deg, #ffc14e, transparent);
+                background-blend-mode: screen;"
     >
         {# left column #}
         <div class="flex flex-col w-full md:w-3/5 text-center justify-center items-start pt-4 px-4 md:px-16 lg:px-32 text-gray-800">
@@ -30,6 +31,26 @@ layout: layouts/base.njk
         {# right column #}
         <div class="w-full md:w-2/5 flex content-center justify-center p-4">
             <img src="/static/images/nv-logo.png" class="object-none" />
+        </div>
+    </div>
+
+    {# upcoming events #}
+    <div class="pt-6 pb-12 bg-orange-100 text-gray-800">
+        <h2 class="text-2xl text-center">Upcoming Events</h2>
+
+        <div class="contianer mx-auto mt-4 text-center">
+            <div>
+                <a href="http://tws-west.org/redding2020/" class="text-lg text-orange-600 hover:underline">Western Section Meeting</a>
+                <p class="text-gray-700">Feb. 3 - 7 &bull; Redding, CA</p>
+            </div>
+            <div class="mt-4">
+                <a href="https://www.eventbrite.com/e/2020-nv-tws-science-symposium-tickets-86453118605" class="text-lg text-orange-600 hover:underline">Nevada Chapter Science Symposium</a>
+                <p class="text-gray-700">Mar. 3 - 4 &bull; Reno, NV</p>
+            </div>
+            <div class="mt-4">
+                <p class="text-lg text-gray-700">Raven Management Workshop & Forum</p>
+                <p class="text-gray-700">Apr. 21 - 23 &bull; Elko, CA</p>
+            </div>
         </div>
     </div>
 

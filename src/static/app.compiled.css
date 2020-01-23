@@ -11403,15 +11403,22 @@ video {
 
 .markdown {
   color: #2d3748;
-  line-height: 1.5;
+  line-height: 2;
   overflow-wrap: break-word;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
 .markdown > p {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .markdown > p {
+    font-size: 1.125rem;
+  }
 }
 
 /* Additional vertical padding used by kbd tag. */
