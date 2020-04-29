@@ -1,18 +1,18 @@
 [
   {
     "position": "President",
-    "name": "Kevin Shoemaker",
-    "img": "static/images/shoemaker-kevin-2016.jpg"
+    "name": "Cody Schroeder",
+    "img": "https://source.unsplash.com/A-8el6nAr8s"
   },
   {
     "position": "President Elect",
-    "name": "Cody Schroeder",
+    "name": "Perry Williams",
     "img": "https://source.unsplash.com/zwtqIlsajjg"
   },
   {
     "position": "Past President",
-    "name": "Brian Wakeling",
-    "img": "static/images/bwakeling.jpg"
+    "name": "Kevin Shoemaker",
+    "img": "static/images/shoemaker-kevin-2016.jpg"
   },
   {
     "position": "Rep. to Western",
@@ -26,7 +26,7 @@
   },
   {
     "position": "Conservation Affairs",
-    "name": "Jasmine Kleiber",
+    "name": "Ian Dudley",
     "img": "https://source.unsplash.com/ZbMJ5VLrpQ4"
   },
   {
